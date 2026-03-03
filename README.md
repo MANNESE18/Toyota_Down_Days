@@ -24,11 +24,13 @@ Before running the script, ensure you have the requests library installed:
 pip install requests
 ```
 
+
 **2) Get your API Key**
 
 You will need a free API key from Alpha Vantage. You can get it here -> https://www.alphavantage.co/support/
 
 This script operates as an interactive command-line tool. To use it, follow the steps below:
+
 
 **3) Run the script**
 
@@ -37,13 +39,16 @@ Open your terminal or command prompt, navigate to the project folder and execute
 python TSLA_Overview.py
 ```
 
+
 **4) Enter Data and Credentials**
 
 
 This script will pause and promt you for two specific pieces of information:
 
 **stock ticker:** enter the symbol for the company you want to research (ex. MSFT for Microsoft)
+
 **API Key:** Paste your unique Alpha Vantage API Key. You can get one here -> https://www.alphavantage.co/support/
+
 
 **5) Example Workflow**
 
@@ -53,12 +58,15 @@ Enter API Key: YOUR_API_KEY_HERE
 Description: Tesla, Inc. is an American electric vehicle and clean energy company...
 ```
 
+
 **6) Handling Errors**
 
 The script includes build-in error handling to manage common issues:
 
 **Invalid Tickers:** If you enter a symbol that does not exist or is misspelled, the console will display Invalid Ticker instead of crashing.
+
 **Exiting:** To close the program at any time during the ticker prompt, simply type "quit".
+
 
 **7) API Limits**
 
